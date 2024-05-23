@@ -150,7 +150,7 @@ header nav .main-nav{
     flex: 1;
     gap: 2rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav {
         display: none;
         flex-direction: column;
@@ -169,7 +169,7 @@ header nav .main-nav{
 header nav .main-nav > li{
     position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav > li {
         width: 100%;
     }
@@ -193,14 +193,7 @@ header nav .main-nav > li > div a{
     -ms-transition: var(--main-transtion);
     -o-transition: var(--main-transtion);
 }
-/* @media (max-width: 768px) {
-    header nav .main-nav > li > div {
-        display: block;
-    }
-    header nav .main-nav > li > div a {
-        text-align: center;
-    }
-} */
+
 header nav .main-nav > li > div a::after{
     content: var(--src-arrow);
     position: absolute;
@@ -208,7 +201,7 @@ header nav .main-nav > li > div a::after{
     width: 10px;
     top: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav > li > div a {
         color: var(--clr-heading);
         font-weight: var(--fw-2-bold);
@@ -221,7 +214,7 @@ header nav .main-nav > li.active > div a{
     color: var(--clr-white);
     text-decoration: underline;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav > li:hover > div a,
     header nav .main-nav > li.active > div a{
         color: var(--clr-body-copy);
@@ -245,7 +238,7 @@ header nav .main-nav > li.active ul{
     display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     header nav .main-nav > li ul {
         position: absolute;
         left: 0;
@@ -257,7 +250,7 @@ header nav .main-nav > li ul li{
     margin-block: calc(var(--main-margin) / 2);
     width: clamp(12rem,12vh,15rem);
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav > li ul li {
         width: 100%;
     }
@@ -273,7 +266,7 @@ header nav .main-nav > li ul li a{
     -ms-transition: var(--main-transtion);
     -o-transition: var(--main-transtion);
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav > li ul li a {
         text-align: center;
         padding: 0;
@@ -287,7 +280,7 @@ header nav .main-nav li:last-child{
     display: flex;
     gap: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     header nav .main-nav li:last-child{
         flex-direction: column;
     }
@@ -320,7 +313,7 @@ header nav .main-nav li:last-child{
     background-color: var(--clr-white);
     color: var(--clr-cta-text);
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .links a{
         margin-inline: auto;
     }
